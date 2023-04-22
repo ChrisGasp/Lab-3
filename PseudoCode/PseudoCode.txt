@@ -1,0 +1,22 @@
+pseudocode
+
+
+var distance;
+var CarTimeTaken;
+var TrainTimeTaken;
+
+
+var trainfare;
+var MaintPerMile;
+var FuelPerMile;
+
+
+
+var totalCarCost = (MaintPerMile + FuelPerMile) * distance;
+var totalTrainCost = trainfare * 2;
+
+if (totalCarCost < totalTrainCost && CarTimeTaken < TrainTimeTaken) 
+
+    then {car.drive(distance)}
+
+else then {train.ride(2)}
